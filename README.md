@@ -27,15 +27,12 @@ pip install -r requirements.txt
 # 2. Pull a local model (llama3.2 is a good default, ~2GB)
 ollama pull llama3.2
 
-# 3. Start Ollama in the background
-ollama serve
-
-# 4. Set your keys
+# 3. Set your keys
 cp .env.example .env
 # edit .env and add your TAVILY_API_KEY
 
-# 5. Run
-streamlit run app.py
+# 4. Run
+python -m streamlit run app.py
 ```
 
 The app will open at http://localhost:8501. Keys can also be pasted directly into the sidebar instead of using .env.
