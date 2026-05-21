@@ -1,0 +1,18 @@
+# Deep Research Agent
+# pip install -r requirements.txt
+
+# web search + page fetch
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+
+# UI
+streamlit>=1.35.0
+
+# misc
+python-dotenv>=1.0.0
+
+# NOTE: No LLM API packages needed.
+# This project uses Ollama for local inference.
+# Install Ollama: https://ollama.com/download
+# Then pull a model: ollama pull llama3.2

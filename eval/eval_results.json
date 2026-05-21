@@ -1,0 +1,398 @@
+[
+  {
+    "question_id": "factual_1",
+    "question_type": "factual",
+    "question_text": "What is the latest stable version of Python and when was it released?",
+    "session_id": "79eddf08-59cb-4452-aac4-e902e419b95f",
+    "search_queries": [
+      "Python 3.10 release date",
+      "Latest stable Python version",
+      "Python 3.x version history"
+    ],
+    "retrieved_urls": [
+      "https://en.wikipedia.org/wiki/History_of_Python",
+      "https://www.python.org/downloads/release/python-3100",
+      "https://devguide.python.org/versions",
+      "https://www.python.org/downloads/release/python-31012",
+      "https://www.python.org/downloads"
+    ],
+    "answer": "The latest stable version of Python is Python 3.14.3 [1]. As of February 2026, this version currently receives full bug-fix and security updates.\n\nPython 3.13 was released in October 2024 and will continue to receive bug-fixes until October 2026, after which it will only receive security fixes until its end-of-life in 2029 [1].\n\nThe oldest supported branch of Python is Python 3.10, which introduced structural pattern matching via match/case statements and improved error messages [2]. \n\nPython 3.11 expanded exception handling functionality and made the language faster by 10-60% compared to Python 3.10 [2]. \n\nPython 3.12 added a new keyword `type` and improved error messages, while also increasing performance by an additional 5% compared to Python 3.11 [2].\n\n## Sources\n\n[1] https://en.wikipedia.org/wiki/History_of_Python\n[2] https://devguide.python.org/versions\nhttps://www.python.org/downloads/release/python-3100",
+    "error": null,
+    "elapsed_seconds": 32.21,
+    "scores": {
+      "question_id": "factual_1",
+      "question_type": "factual",
+      "citation_rate": 0.0,
+      "grounding_score": 0.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 1.0,
+      "source_diversity": 0,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 124,
+      "composite_score": 0.6
+    },
+    "timestamp": "2026-05-21T06:55:31Z"
+  },
+  {
+    "question_id": "factual_2",
+    "question_type": "factual",
+    "question_text": "Who is the current CEO of OpenAI and what is their background?",
+    "session_id": "8f948a28-b206-490d-bb6c-7b20d705c0b9",
+    "search_queries": [
+      "OpenAI CEO Sam Altman bio",
+      "Sam Altman leadership style",
+      "OpenAI CEO Sam Altman interview 2023"
+    ],
+    "retrieved_urls": [
+      "https://www.linkedin.com/posts/arlanhamilton_i-made-2-apps-in-24-hours-without-knowing-activity-7329260425391276032-kNsq",
+      "https://www.clay.com/dossier/openai-ceo",
+      "https://www.northamericanexec.com/news/tracing-the-rise-of-ceo-sam-altman",
+      "https://en.wikipedia.org/wiki/Sam_Altman",
+      "https://time.com/6288584/openai-sam-altman-full-interview",
+      "https://www.ctileadership.com/was-sam-altman-of-openai-level-5-leader-why-would-he-inspire-a-mass-exodus-a-self-reflection"
+    ],
+    "answer": "### Who is the current CEO of OpenAI and what is their background?\n\nSam Altman is the current CEO of OpenAI, a leading artificial intelligence research organization. He was born on April 22, 1985, in Chicago, Illinois, USA [4](https://en.wikipedia.org/wiki/Sam_Altman).\n\nAltman dropped out of Stanford University to found Loopt, a social mapping company, which was later sold for $43 million [2](https://www.clay.com/dossier/openai-ceo). He co-founded OpenAI in 2015 and initially served as co-chairman before transitioning to the role of CEO in 2019 [2](https://www.clay.com/dossier/openai-ceo).\n\nAs president of Y Combinator, Altman played a crucial role in shaping the AI industry. He has been involved with OpenAI for over eight years, playing a significant role in advancing AI technology in a safe and beneficial direction [2](https://www.clay.com/dossier/openai-ceo).\n\nAltman's leadership style is characterized by his visionary thinking and his ability to inspire and motivate his team. Described by colleagues as a leader who combines technical acumen with a deep understanding of the broader societal implications of AI, Altman has been pivotal in steering OpenAI towards achieving its ambitious goals [3](https://www.northamericanexec.com/news/tracing-the-rise-of-ceo-sam-altman).\n\nHowever, it's worth noting that there is some disagreement among sources about Altman's leadership style and influence. Some critics argue that his approach to leadership emphasizes collaboration, innovation, and a relentless pursuit of excellence, while others suggest that he may be too focused on the technical aspects of AI development [3](https://www.northamericanexec.com/news/tracing-the-rise-of-ceo-sam-altman).\n\n## Sources\n\n[2](https://www.clay.com/dossier/openai-ceo)\n[3](https://www.northamericanexec.com/news/tracing-the-rise-of-ceo-sam-altman)\n[4](https://en.wikipedia.org/wiki/Sam_Altman)",
+    "error": null,
+    "elapsed_seconds": 63.22,
+    "scores": {
+      "question_id": "factual_2",
+      "question_type": "factual",
+      "citation_rate": 0.583,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.667,
+      "source_diversity": 3,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 228,
+      "composite_score": 0.85
+    },
+    "timestamp": "2026-05-21T06:56:36Z"
+  },
+  {
+    "question_id": "comparison_1",
+    "question_type": "comparison",
+    "question_text": "Compare PostgreSQL and MySQL: which is better for large-scale web applications and why?",
+    "session_id": "c53391e8-fe3e-4a81-bbb9-27ccda34c427",
+    "search_queries": [
+      "\"PostgreSQL vs MySQL for high traffic websites\"",
+      "\"Scalability comparison of relational databases for e-commerce platforms\"",
+      "\"Performance benchmarking of open-source databases for large-scale web apps\""
+    ],
+    "retrieved_urls": [
+      "https://www.fivetran.com/blog/postgresql-vs-mysql",
+      "https://www.youtube.com/watch?v=R7jBtnrUmYI",
+      "https://blog.storecensus.com/sql-vs-nosql-scalability-for-ecommerce-platforms",
+      "https://medium.com/@firoz.hasan/exploring-database-solutions-in-e-commerce-relational-and-nosql-use-cases-380fb260b311"
+    ],
+    "answer": "**Comparison of PostgreSQL and MySQL for Large-Scale Web Applications**\n\nWhen it comes to choosing a database for large-scale web applications, both PostgreSQL and MySQL have their strengths and weaknesses. Here's a comparison of the two databases based on various factors.\n\n**Scalability**\nPostgreSQL is generally considered more scalable than MySQL, especially when it comes to handling high-traffic sites [1](https://www.fivetran.com/blog/postgresql-vs-mysql). PostgreSQL's MVCC architecture and strong ACID compliance make it a rock-solid choice for transaction-heavy systems. In contrast, MySQL relies heavily on InnoDB to manage transactions, which may require additional tuning for complex workloads.\n\n**Performance**\nPostgreSQL has been shown to outperform MySQL in terms of performance, especially when it comes to handling large datasets [2](https://www.youtube.com/watch?v=R7jBtnrUmYI). A benchmark test conducted by the author found that PostgreSQL was able to handle up to 32,000 queries per second, while MySQL struggled to keep up with around 10,000 queries per second.\n\n**Data Storage**\nPostgreSQL offers advanced features like JSON support and full-text search, making it a strong choice for more complex web applications [1](https://www.fivetran.com/blog/postgresql-vs-mysql). In contrast, MySQL's data storage capabilities are more limited.\n\n**Consistency**\nBoth PostgreSQL and MySQL offer strong consistency guarantees, but PostgreSQL's ACID compliance makes it a better choice for transaction-heavy systems [3](https://blog.storecensus.com/sql-vs-nosql-scalability-for-ecommerce-platforms).\n\n**Conclusion**\nBased on the available evidence, PostgreSQL appears to be the better choice for large-scale web applications due to its scalability, performance, and advanced features. However, it's essential to note that the right choice ultimately depends on the specific needs of the project.\n\n## Sources\n\n[1] Fivetran. (n.d.). PostgreSQL vs. MySQL: Key differences. Retrieved from <https://www.fivetran.com/blog/postgresql-vs-mysql>\n\n[2] YouTube. (n.d.). MySQL vs Postgres Performance Benchmark (Latency - Saturation). Retrieved from <https://www.youtube.com/watch?v=R7jBtnrUmYI>\n\n[3] StoreCensus. (n.d.). SQL vs NoSQL: Scalability for Ecommerce Platforms. Retrieved from <https://blog.storecensus.com/sql-vs-nosql-scalability-for-ecommerce-platforms>",
+    "error": null,
+    "elapsed_seconds": 59.22,
+    "scores": {
+      "question_id": "comparison_1",
+      "question_type": "comparison",
+      "citation_rate": 0.174,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.4,
+      "source_diversity": 3,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 281,
+      "composite_score": 0.715
+    },
+    "timestamp": "2026-05-21T06:57:36Z"
+  },
+  {
+    "question_id": "comparison_2",
+    "question_type": "comparison",
+    "question_text": "What are the key differences between React and Vue.js for frontend development in 2024?",
+    "session_id": "d1a0c7bf-b2cd-4129-9ab9-b674a73a5a05",
+    "search_queries": [
+      "What are the key differences between React and Vue.js for frontend development in 2024?"
+    ],
+    "retrieved_urls": [
+      "https://alokai.com/blog/vue-vs-react",
+      "https://eleopardsolutions.com/react-vs-vue-vs-angular-key-differences",
+      "https://remote72.com/react-js-vs-vue-js",
+      "https://www.developernation.net/blog/vue-js-vs-react-which-is-the-ideal-javascript-framework-for-2024"
+    ],
+    "answer": "### Key Differences Between React and Vue.js\n\n#### Similarities\n\nBoth React and Vue.js are industry-leading JavaScript technologies used for frontend development. They both allow using templates to build complex apps and functions, and both use a browser-independent virtual DOM, making their infrastructures similar and ensuring good performance and speed [1].\n\n\n#### Key Differences\n\n* **Reactive Data Binding**: Vue uses a two-way data binding mechanism, allowing automatic synchronization between the model (data) and view (UI), making state management easier [2].\n* **Component System**: Both React and Vue encourage building applications using components, but Vue's syntax is more straightforward, making it a popular choice for beginners [2].\n* **Vue CLI and Vue Router**: Vue CLI is a powerful tool for setting up projects, and Vue Router offers a smooth, integrated solution for managing routing in Vue applications [2].\n* **Vuex for State Management**: Vue offers a centralized store (Vuex) to handle state management, making it easier to manage and debug complex state logic [2].\n\n#### Application Size\n\nVue.js wins in terms of application size, as the codes written using this framework can be compressed considerably to lower the application size. This results in lower development time and higher performance output [3].\n\n#### Virtual DOM\n\nBoth React and Vue use Virtual DOM in their development procedure instead of Real DOM. The use of virtual DOM reduces direct manipulation of the Real DOM, which enables faster rendering and accelerates the development process [4].\n\n\n#### Component-Based Architecture\n\nBoth React and Vue use a component-oriented architecture for front-end development. The frameworks, plugins, and reusable components of these frameworks help developers build web applications and interfaces faster while improving performance and quality [4].\n\n### Which One is Better?\n\nThere is no clear answer to which framework or library is better. Both Vue and React have their own sets of advantages and drawbacks. It ultimately boils down to your project size, its requirements, and available resources [1].\n\n\n## Sources\n\n[1] alokai.com](https://alokai.com/blog/vue-vs-react)\n[2] eleopardsolutions.com](https://eleopardsolutions.com/react-vs-vue-vs-angular-key-differences)\n[3] remote72.com](https://remote72.com/react-js-vs-vue-js)\n[4] developer nation.net](https://www.developernation.net/blog/vue-js-vs-react-which-is-the-ideal-javascript-framework-for-2024)",
+    "error": null,
+    "elapsed_seconds": 53.55,
+    "scores": {
+      "question_id": "comparison_2",
+      "question_type": "comparison",
+      "citation_rate": 0.0,
+      "grounding_score": 0.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.4,
+      "source_diversity": 0,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 330,
+      "composite_score": 0.48
+    },
+    "timestamp": "2026-05-21T06:58:31Z"
+  },
+  {
+    "question_id": "multihop_1",
+    "question_type": "multi_hop",
+    "question_text": "Which country invented the Transformer neural network architecture and what major AI products are built on it?",
+    "session_id": "b99f4c34-1c2d-447a-b613-b3480bfec05a",
+    "search_queries": [
+      "Transformer neural network origin",
+      "Geoffrey Hinton transformer paper",
+      "Bert language model development"
+    ],
+    "retrieved_urls": [
+      "https://www.linkedin.com/posts/j%C3%BCrgen-schmidhuber-39226872_who-invented-transformer-neural-networks-activity-7393920732793262081-rSaL",
+      "https://www.datacamp.com/tutorial/how-transformers-work",
+      "https://radical.vc/geoffrey-hinton-on-the-algorithm-powering-modern-ai",
+      "https://discover.research.utoronto.ca/26059-geoffrey-e-hinton/publications"
+    ],
+    "answer": "# Who Invented Transformer Neural Networks?\n\nTransformer neural networks were first developed by Jürgen Schmidhuber, a German computer scientist [1](https://www.linkedin.com/posts/j%C3%BCrgen-schmidhuber-39226872_who-invented-transformer-neural-networks-activity-7393920732793262081-rSaL). The original technology report on the unnormalized linear Transformer (ULTRA) was published in 1991 [1](https://www.linkedin.com/posts/j%C3%BCrgen-schmidhuber-39226872_who-invented-transformer-neural-networks-activity-7393920732793262081-rSaL).\n\n# Major AI Products Built on Transformer Neural Networks\n\nTransformers have become a crucial component in various AI applications, including:\n\n*   Large language models like ChatGPT [2](https://www.datacamp.com/tutorial/how-transformers-work)\n*   Generative AI technologies\n*   Vision Transformers (ViT) for images [2](https://www.datacamp.com/tutorial/how-transformers-work)\n*   Multimodal models for combined inputs\n\nThe Transformer architecture was first introduced in the 2017 research paper \"Attention is All You Need\" by Vaswani et al. [3](https://radical.vc/geoffrey-hinton-on-the-algorithm-powering-modern-ai)\n\n## Sources\n\n[1](https://www.linkedin.com/posts/j%C3%BCrgen-schmidhuber-39226872_who-invented-transformer-neural-networks-activity-7393920732793262081-rSaL)\n[2](https://www.datacamp.com/tutorial/how-transformers-work)\n[3](https://radical.vc/geoffrey-hinton-on-the-algorithm-powering-modern-ai)",
+    "error": null,
+    "elapsed_seconds": 47.3,
+    "scores": {
+      "question_id": "multihop_1",
+      "question_type": "multi_hop",
+      "citation_rate": 0.8,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.75,
+      "source_diversity": 3,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 105,
+      "composite_score": 0.91
+    },
+    "timestamp": "2026-05-21T06:59:20Z"
+  },
+  {
+    "question_id": "multihop_2",
+    "question_type": "multi_hop",
+    "question_text": "How does the EU AI Act affect companies that use large language models for customer service?",
+    "session_id": "2a8aaf9d-8248-4175-9807-ef989070026c",
+    "search_queries": [
+      "EU AI Act impact on customer service chatbots",
+      "Large language model liability in customer service",
+      "Regulatory framework for AI-powered customer support"
+    ],
+    "retrieved_urls": [
+      "https://www.getmyai.ai/blog/eu-ai-act-ai-chatbots-guide",
+      "https://qualimero.com/en/blog/eu-ai-act-chatbot-compliance",
+      "https://p72.vc/ai/customer-service-x-large-language-models",
+      "https://www.calvin-risk.com/blog/large-language-models-llms-in-customer-support-chatbots-understanding-vulnerabilities-and-best-practices"
+    ],
+    "answer": "### EU AI Act Impact on Large Language Models in Customer Service\n\nThe European Union's AI Act has introduced a comprehensive framework governing artificial intelligence systems across Europe, affecting companies that use large language models for customer service [1](https://www.getmyai.ai/blog/eu-ai-act-ai-chatbots-guide). The regulation requires transparency and governance measures to ensure the safe deployment of AI-powered chatbots.\n\nCustomer support bots typically fall under transparency rules rather than strict regulations, but high-risk systems used in hiring, finance, or education may be subject to more extensive documentation requirements [2](https://qualimero.com/en/blog/eu-ai-act-chatbot-compliance). Small shops using basic chatbots primarily face transparency requirements, not the extensive documentation demanded of high-risk systems.\n\nTo comply with the EU AI Act, companies must implement governance, monitoring, and documentation before full enforcement begins in 2026 [1](https://www.getmyai.ai/blog/eu-ai-act-ai-chatbots-guide). Early compliance planning helps organizations reduce regulatory risk while scaling AI adoption. However, the requirements scale with risk level, and small shops may not be subject to extensive documentation demands.\n\nLarge language models used in customer service can be vulnerable to prompt injections, which can manipulate chatbots and induce unpredictable behaviors [4](https://www.calvin-risk.com/blog/large-language-models-llms-in-customer-support-chatbots-understanding-vulnerabilities-and-best-practices). Data leakage is another risk associated with LLMs, as they may access sensitive user data.\n\n### Best Practices for Large Language Models in Customer Service\n\nTo mitigate these risks, companies can implement best practices such as:\n\n*   Providing transparency statements informing users that they are interacting with AI [2](https://qualimero.com/en/blog/eu-ai-act-chatbot-compliance)\n*   Implementing robust governance and monitoring measures to detect potential issues\n*   Documenting data sources and decision logic for LLMs\n*   Offering human escalation paths for complex or sensitive issues\n\n### Conclusion\n\nThe EU AI Act has significant implications for companies using large language models in customer service. By understanding the regulation's requirements and implementing best practices, organizations can reduce regulatory risk while scaling AI adoption.\n\n## Sources\n\n[1] https://www.getmyai.ai/blog/eu-ai-act-ai-chatbots-guide\n[2] https://qualimero.com/en/blog/eu-ai-act-chatbot-compliance\n[3] https://p72.vc/ai/customer-service-x-large-language-models\n[4] https://www.calvin-risk.com/blog/large-language-models-llms-in-customer-support-chatbots-understanding-vulnerabilities-and-best-practices",
+    "error": null,
+    "elapsed_seconds": 56.97,
+    "scores": {
+      "question_id": "multihop_2",
+      "question_type": "multi_hop",
+      "citation_rate": 0.417,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.75,
+      "source_diversity": 3,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 299,
+      "composite_score": 0.833
+    },
+    "timestamp": "2026-05-21T07:00:19Z"
+  },
+  {
+    "question_id": "insufficient_1",
+    "question_type": "insufficient_evidence",
+    "question_text": "What is the exact revenue of a fictional startup called NexaCloud AI founded last week?",
+    "session_id": "5a5892a3-6e1d-413d-8679-1215d70d7d57",
+    "search_queries": [
+      "NexaCloud AI revenue",
+      "Funding announcement NexaCloud AI",
+      "NexaCloud AI valuation report"
+    ],
+    "retrieved_urls": [
+      "https://getlatka.com/companies/nexa.ai",
+      "https://www.linkedin.com/pulse/ai-software-valuation-report-2026-ryan-allis-cbehe",
+      "https://www.linkedin.com/posts/nexxa-ai_we-are-excited-to-announce-our-44m-pre-seed-activity-7353091437434916867-epO5",
+      "https://www.prnewswire.com/news-releases/nexxaai-raises-4-4m-to-bring-specialized-ai-to-heavy-industries-302508814.html"
+    ],
+    "answer": "### NexaCloud AI Revenue\n\nUnfortunately, there is no information available on the exact revenue of NexaCloud AI founded last week. The provided web context only mentions Nexa AI (not NexaCloud AI), which is a Cupertino-based company specializing in on-device AI models and tools [1](https://getlatka.com/companies/nexa.ai).\n\nHowever, we can infer some information about Nexa AI's revenue from the available sources.\n\nAccording to GetLatka, Nexa AI's ARR (Annual Recurring Revenue) was $3.4M in 2025 [1](https://getlatka.com/companies/nexa.ai). Additionally, a LinkedIn post mentions that Nexxa.ai raised $4.4M pre-seed funding round, which may indicate the company's valuation or revenue potential [3](https://www.linkedin.com/posts/nexxa-ai_we-are-excited-to-announce-our-44m-pre-seed-activity-7353091437434916867-epO5).\n\nHowever, it is unclear whether these figures are for NexaCloud AI specifically or the broader company.\n\n### Conclusion\n\nDue to the lack of information on NexaCloud AI's revenue and the potential discrepancy between ARR and funding round data, we cannot provide an exact figure.\n\n## Sources\n\n[1] getlatka.com/companies/nexa.ai\n[2] https://www.linkedin.com/pulse/ai-software-valuation-report-2026-ryan-allis-cbehe\n[3] https://www.linkedin.com/posts/nexxa-ai_we-are-excited-to-announce-our-44m-pre-seed-activity-7353091437434916867-epO5",
+    "error": null,
+    "elapsed_seconds": 50.92,
+    "scores": {
+      "question_id": "insufficient_1",
+      "question_type": "insufficient_evidence",
+      "citation_rate": 0.375,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.667,
+      "source_diversity": 2,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 146,
+      "composite_score": 0.808
+    },
+    "timestamp": "2026-05-21T07:01:11Z"
+  },
+  {
+    "question_id": "insufficient_2",
+    "question_type": "insufficient_evidence",
+    "question_text": "What will the global GDP be in 2045?",
+    "session_id": "ae8d4a26-fe07-4172-8428-207264cefc2d",
+    "search_queries": [
+      "2045 global gdp forecast",
+      "projected world economy 2050",
+      "economic growth rates 2030-2050"
+    ],
+    "retrieved_urls": [
+      "https://www.pwc.com.au/government/pwc-the-world-in-2050-full-report-feb-2017.pdf",
+      "https://www.cgdev.org/sites/default/files/scenarios-future-global-growth-2050.pdf",
+      "https://www.pwc.com/gr/en/publications/specific-to-all-industries-index/world-in-2050-global-economic-order.html",
+      "https://cebr.com/world-economic-league-table"
+    ],
+    "answer": "Predicting global GDP in 2045 is challenging due to various factors, including economic growth rates and demographic changes. According to PwC's report \"The World in 2050: The Long View\" [1], the global economic growth rate is expected to slow down over the next four decades, with advanced economies experiencing a decline in their working-age populations.\n\nIn contrast, emerging markets are projected to moderate their growth rates as they mature. However, countries like India and Nigeria are expected to continue growing at higher rates due to their large populations and relatively young demographics [1].\n\nPwC's report also suggests that the E7 economies will remain the driving force behind global economic growth, with strong GDP growth rates of around 3.5% per annum between 2016 and 2050 [1]. In comparison, the G7 economies are expected to grow at a markedly slower average rate of around 1.6% per annum during the same period.\n\nAnother report by CGDev [2] shares similar predictions, with a notable growth slowdown in rich countries over the next thirty years. The central forecast predicts an annualized real GDP per capita growth rate of about 0.6 percent for the US, which is half the rate over the past two decades.\n\nCebr's World Economic League Table 2026 [4] also provides insights into global economic growth, with China expected to overtake the US as the world's largest economy by 2045, driven primarily by downgrades to the US' long-term outlook. India is projected to solidify its position as a global economic powerhouse and become the world's third-largest economy by 2029.\n\n## Sources\n\n[1] [pwc.com.au](https://www.pwc.com.au/government/pwc-the-world-in-2050-full-report-feb-2017.pdf)\n[2] [cgdev.org](https://www.cgdev.org/sites/default/files/scenarios-future-global-growth-2050.pdf)\n[3] [pwc.com/gr/en/publications/specific-to-all-industries-index/world-in-2050-global-economic-order.html](https://www.pwc.gr/en/publications/specific-to-all-industries-index/world-in-2050-global-economic-order.html)\n[4] [cebr.com](https://cebr.com/world-economic-league-table)",
+    "error": null,
+    "elapsed_seconds": 54.66,
+    "scores": {
+      "question_id": "insufficient_2",
+      "question_type": "insufficient_evidence",
+      "citation_rate": 0.091,
+      "grounding_score": 0.75,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.333,
+      "source_diversity": 4,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 266,
+      "composite_score": 0.635
+    },
+    "timestamp": "2026-05-21T07:02:07Z"
+  },
+  {
+    "question_id": "conflict_1",
+    "question_type": "conflicting_sources",
+    "question_text": "Is coffee good or bad for health? What does current research say?",
+    "session_id": "6a5e155e-935c-42e3-8fa0-b8cd0a0e7468",
+    "search_queries": [
+      "coffee and cardiovascular disease risk",
+      "long-term effects of moderate coffee consumption",
+      "caffeine's impact on glucose metabolism"
+    ],
+    "retrieved_urls": [
+      "https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10262944",
+      "https://pubmed.ncbi.nlm.nih.gov/40806142",
+      "https://www.escardio.org/news/press/press-releases/morning-coffee-may-protect-the-heart-better-than-all-day-coffee-drinking"
+    ],
+    "answer": "# Is Coffee Good or Bad for Health?\n\nCurrent research suggests that moderate coffee consumption may have health benefits, while excessive consumption may lead to negative effects.\n\n### Short-term Effects on Blood Sugar\n\nCaffeine can temporarily impair insulin sensitivity, potentially leading to higher blood sugar levels [1](https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose). However, this effect is often seen in individuals with impaired glucose tolerance or those who consume coffee after dinner [1](https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose).\n\n### Long-term Effects on Cardiovascular Health\n\nModerate coffee consumption has been linked to a reduced risk of cardiovascular disease, including heart failure and atrial fibrillation [2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10262944). The FHS, CHS, and ARIC studies showed that high coffee intake was associated with a decrease in long-term risk of heart failure independent of sex, baseline history of myocardial infarction, and diabetes [2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10262944).\n\n### Mechanisms of Action\n\nSeveral mechanisms have been proposed to explain caffeine's acute effects on glucose metabolism, including adrenaline release and adenosine receptor antagonism [1](https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose). However, the exact mechanisms are still unclear, and more research is needed to fully understand the effects of coffee on blood sugar regulation.\n\n### Individual Variability\n\nThe metabolic effects of caffeine vary widely across individuals, depending on genetics, habitual intake, time of consumption, and baseline metabolic health [1](https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose). Fast metabolizers of caffeine may experience fewer glycemic effects, while slow metabolizers or individuals with impaired glucose tolerance may see more pronounced spikes in blood sugar after caffeine intake.\n\n### Timing of Coffee Consumption\n\nConsuming coffee on an empty stomach may exaggerate glucose fluctuations [1](https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose). Additionally, consuming caffeine late in the day may impact sleep quality, indirectly affecting insulin sensitivity [1](https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose).\n\n### Conclusion\n\nWhile current research suggests that moderate coffee consumption may have health benefits, excessive consumption or individual variability in response to caffeine intake should be taken into account. Further studies are needed to fully understand the effects of coffee on blood sugar regulation and cardiovascular health.\n\n## Sources\n\n[1] Ultrahuman - Caffeine and blood glucose – can a coffee blunt a sugar spike? https://blog.ultrahuman.com/blog/caffeine-impact-on-blood-glucose\n[2] PMC - Impact of Coffee Consumption on Cardiovascular Health https://pmc.ncbi.nlm.nih.gov/articles/PMC10262944\n[3] PubMed - Coffee's Impact on Health and Well-Being https://pubmed.ncbi.nlm.nih.gov/40806142\n[4] ESCARDIO - Morning coffee may protect the heart better than all-day coffee drinking https://www.escardio.org/news/press/press-releases/morning-coffee-may-protect-the-heart-better-than-all-day-coffee-drinking",
+    "error": null,
+    "elapsed_seconds": 69.49,
+    "scores": {
+      "question_id": "conflict_1",
+      "question_type": "conflicting_sources",
+      "citation_rate": 0.5,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.25,
+      "source_diversity": 2,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 361,
+      "composite_score": 0.75
+    },
+    "timestamp": "2026-05-21T07:03:18Z"
+  },
+  {
+    "question_id": "conflict_2",
+    "question_type": "conflicting_sources",
+    "question_text": "Does remote work increase or decrease employee productivity? What does the evidence say?",
+    "session_id": "5d257fa1-893e-4e59-b14c-8c0f430dfcf8",
+    "search_queries": [
+      "remote work productivity meta-analysis",
+      "effect of telecommuting on employee output",
+      "comparative study of in-office vs remote work environments"
+    ],
+    "retrieved_urls": [
+      "https://asset.library.wisc.edu/1711.dl/CONGAB3N5PZEJ8W/R/file-3122b.pdf",
+      "https://www.activtrak.com/blog/remote-work-vs-office-productivity",
+      "https://comp.mga.edu/static/media/doctoralpapers/2023_Small_0516152350.pdf"
+    ],
+    "answer": "### Does Remote Work Increase or Decrease Employee Productivity?\n\nResearch suggests that remote work can increase employee productivity. According to a study published on [asset.library.wisc.edu](https://asset.library.wisc.edu/1711.dl/CONGAB3N5PZEJ8W/R/file-3122b.pdf), telecommuting leads to greater information acquisition, which is positively associated with work quality [1]. This finding indicates that remote workers are more productive due to better access to information.\n\nIn contrast, a study by ActivTrak found that employees are more productive when working from home than in the office [2]. The report states that \"many business leaders believe it's impossible for team members to perform as well from home as they do at the office\" but presents data that contradicts this assumption [2].\n\nHowever, another study published on [comp.mga.edu](https://comp.mga.edu/static/media/doctoralpapers/2023_Small_0516152350.pdf) suggests that telecommuting can have a positive impact on performance, depending on the sample size and company type. The study concludes that there is a relationship between telework and performance [3].\n\nIt's essential to note that while these studies suggest remote work can increase productivity, the evidence is not uniform across all industries and job types. For example, prior literature on telecommuting focuses mainly on employees in lower paid jobs because output is easily measurable for such jobs [1]. More research is needed to fully understand the impact of remote work on employee productivity.\n\n## Sources\n\n[asset.library.wisc.edu](https://asset.library.wisc.edu/1711.dl/CONGAB3N5PZEJ8W/R/file-3122b.pdf)\n[activtrak.com](https://www.activtrak.com/blog/remote-work-vs-office-productivity)\n[comp.mga.edu](https://comp.mga.edu/static/media/doctoralpapers/2023_Small_0516152350.pdf)",
+    "error": null,
+    "elapsed_seconds": 54.58,
+    "scores": {
+      "question_id": "conflict_2",
+      "question_type": "conflicting_sources",
+      "citation_rate": 0.25,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.333,
+      "source_diversity": 3,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 213,
+      "composite_score": 0.717
+    },
+    "timestamp": "2026-05-21T07:04:14Z"
+  },
+  {
+    "question_id": "deep_research_1",
+    "question_type": "deep_research",
+    "question_text": "Explain the current state of quantum computing and which companies are leading the race to quantum advantage.",
+    "session_id": "2c38783d-5cf9-4d5b-bd58-5be60707745b",
+    "search_queries": [
+      "quantum computing market share 2024",
+      "leading companies in quantum computing",
+      "Google vs IBM quantum computing supremacy"
+    ],
+    "retrieved_urls": [
+      "https://www.quantamagazine.org/google-and-ibm-clash-over-quantum-supremacy-claim-20191023",
+      "https://www.snsinsider.com/reports/quantum-computing-market-2740",
+      "https://www.technavio.com/report/quantum-computing-market-industry-analysis",
+      "https://thequantuminsider.com/2025/09/23/top-quantum-computing-companies"
+    ],
+    "answer": "### Current State of Quantum Computing\n\nQuantum computing has made significant progress in recent years, with several companies vying for the title of \"quantum supremacy.\" In 2019, Google announced that its quantum computer had achieved quantum supremacy, meaning it could perform a calculation that no ordinary computer could match [1](https://www.quantamagazine.org/google-and-ibm-clash-over-quantum-supremacy-claim-20191023). However, IBM disagreed with this claim, arguing that the threshold for quantum supremacy has not yet been crossed [1](https://www.quantamagazine.org/google-and-ibm-clash-over-quantum-supremacy-claim-20191023).\n\n### Leading Companies in Quantum Computing\n\nSeveral companies are leading the charge in quantum computing, including Google, IBM, D-Wave, and Fujitsu. According to a report by SNS Insider, the Asia Pacific region is expected to be the fastest-growing region in the quantum computing market, with an estimated CAGR of around 31.93% [2](https://www.snsinsider.com/reports/quantum-computing-market-2740). North America is currently the largest market for quantum computing, accounting for over 40% of the global market share [3](https://www.technavio.com/report/quantum-computing-market-industry-analysis).\n\n### Market Growth and Trends\n\nThe quantum computing market is expected to grow significantly in the coming years, with industry experts projecting a 25.6% rise in the number of businesses implementing quantum computing solutions in the upcoming year [3](https://www.technavio.com/report/quantum-computing-market-industry-analysis). Advancements in quantum circuit design and the integration of quantum algorithms are key drivers of this market expansion.\n\n### Interoperability and Collaboration\n\nInteroperability is a critical aspect of quantum computing, with companies like AQT committed to supporting a wide range of leading quantum development frameworks [4](https://thequantuminsider.com/2025/09/23/top-quantum-computing-companies). This allows developers to run existing quantum code directly on AQT's devices with minimal modification.\n\n## Sources\n\n[1](https://www.quantamagazine.org/google-and-ibm-clash-over-quantum-supremacy-claim-20191023)\n[2](https://www.snsinsider.com/reports/quantum-computing-market-2740)\n[3](https://www.technavio.com/report/quantum-computing-market-industry-analysis)\n[4](https://thequantuminsider.com/2025/09/23/top-quantum-computing-companies)",
+    "error": null,
+    "elapsed_seconds": 58.41,
+    "scores": {
+      "question_id": "deep_research_1",
+      "question_type": "deep_research",
+      "citation_rate": 0.7,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.333,
+      "source_diversity": 4,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 247,
+      "composite_score": 0.807
+    },
+    "timestamp": "2026-05-21T07:05:14Z"
+  },
+  {
+    "question_id": "deep_research_2",
+    "question_type": "deep_research",
+    "question_text": "What are the main causes and consequences of the 2023-2024 global inflation surge, and how did central banks respond?",
+    "session_id": "a16ac742-3a8f-48db-b39c-f8377cad2e4a",
+    "search_queries": [
+      "Global inflation surge 2023",
+      "Monetary policy tightening effects",
+      "Supply chain disruptions and inflation"
+    ],
+    "retrieved_urls": [
+      "https://www.nber.org/digest/202404/supply-chain-disruptions-and-pandemic-era-inflation",
+      "https://www.chicagofed.org/publications/chicago-fed-letter/2023/483",
+      "https://www.clevelandfed.org/publications/economic-commentary/2023/ec-202308-impacts-supply-chain-disruptions-on-inflation",
+      "https://www.federalreserve.gov/econres/ifdp/files/ifdp1384.pdf"
+    ],
+    "answer": "### Causes of the 2023-2024 Global Inflation Surge\n\nThe 2023-2024 global inflation surge can be attributed to several factors, including supply chain disruptions [1](https://www.nber.org/digest/202404/supply-chain-disruptions-and-pandemic-era-inflation). The COVID-19 pandemic led to major disruptions in global supply chains, causing delays and shortages in essential goods. This has resulted in higher prices for consumers and businesses.\n\n### Consequences of the Inflation Surge\n\nThe inflation surge has had significant consequences for the global economy. According to a study by the Federal Reserve Bank of Chicago, monetary policy tightening has already led to substantial declines in real GDP and CPI levels [2](https://www.chicagofed.org/publications/chicago-fed-letter/2023/483). The median effects accumulate to a decline of 5.4 percentage points in the level of real GDP and a decline of 7.1 percentage points in the CPI level.\n\n### Impact of Supply Chain Disruptions\n\nSupply chain disruptions have been identified as a key driver of inflation during this period [3](https://www.clevelandfed.org/publications/economic-commentary/2023/ec-202308-impacts-supply-chain-disruptions-on-inflation). The study found that supply chain shocks lengthen supplier delivery times, while cost-push shocks shorten delivery times. This has resulted in higher prices for consumers and businesses.\n\n### Central Bank Response\n\nCentral banks have responded to the inflation surge by tightening monetary policy. According to a study by the Federal Reserve Bank of Chicago, the one-year expected T-bill rate has increased by about 470 basis points [2](https://www.chicagofed.org/publications/chicago-fed-letter/2023/483). This has led to higher interest rates and reduced economic activity.\n\n### Uncertainty\n\nThe impact of these factors on inflation is not without uncertainty. According to a study by the Federal Reserve Bank of Chicago, the remaining decline in prices concludes much sooner than many models would predict [2](https://www.chicagofed.org/publications/chicago-fed-letter/2023/483).\n\n### Disagreement\n\nThere is some disagreement among economists on the causes and consequences of the inflation surge. According to a study by the Cleveland Fed, historical supply chain problems may have also affected inflation in prior years [3](https://www.clevelandfed.org/publications/economic-commentary/2023/ec-202308-impacts-supply-chain-disruptions-on-inflation).\n\n## Sources\n\n* [1] NBER. (2024). Supply Chain Disruptions and Pandemic-Era Inflation. https://www.nber.org/digest/202404/supply-chain-disruptions-and-pandemic-era-inflation\n* [2] Federal Reserve Bank of Chicago. (2023). Past and Future Effects of the Recent Monetary Policy Tightening. https://www.chicagofed.org/publications/chicago-fed-letter/2023/483\n* [3] Cleveland Fed. (2023). The Impacts of Supply Chain Disruptions on Inflation. https://www.clevelandfed.org/publications/economic-commentary/2023/ec-202308-impacts-supply-chain-disruptions-on-inflation\n* [4] Federal Reserve Bank of Chicago. (2023). The International Spillovers of Synchronous Monetary Tightening. https://www.federalreserve.gov/econres/ifdp/files/ifdp1384.pdf",
+    "error": null,
+    "elapsed_seconds": 71.17,
+    "scores": {
+      "question_id": "deep_research_2",
+      "question_type": "deep_research",
+      "citation_rate": 0.207,
+      "grounding_score": 1.0,
+      "uncertainty_acknowledgment": 1.0,
+      "aspect_coverage": 0.8,
+      "source_diversity": 3,
+      "conflict_flagging": 1.0,
+      "answer_length_words": 362,
+      "composite_score": 0.801
+    },
+    "timestamp": "2026-05-21T07:06:27Z"
+  }
+]

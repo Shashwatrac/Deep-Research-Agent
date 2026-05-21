@@ -1,0 +1,98 @@
+[
+  {
+    "id": "factual_1",
+    "type": "factual",
+    "question": "What is the latest stable version of Python and when was it released?",
+    "expected_aspects": ["version number", "release date", "Python Software Foundation"],
+    "requires_recency": true,
+    "notes": "Tests factual recall with recency requirement"
+  },
+  {
+    "id": "factual_2",
+    "type": "factual",
+    "question": "Who is the current CEO of OpenAI and what is their background?",
+    "expected_aspects": ["CEO name", "background or education", "timeline"],
+    "requires_recency": true,
+    "notes": "Tests person/role lookup with potential leadership changes"
+  },
+  {
+    "id": "comparison_1",
+    "type": "comparison",
+    "question": "Compare PostgreSQL and MySQL: which is better for large-scale web applications and why?",
+    "expected_aspects": ["performance", "scalability", "licensing", "use cases", "community"],
+    "requires_recency": false,
+    "notes": "Tests comparison across multiple dimensions with potential source conflicts"
+  },
+  {
+    "id": "comparison_2",
+    "type": "comparison",
+    "question": "What are the key differences between React and Vue.js for frontend development in 2024?",
+    "expected_aspects": ["performance", "learning curve", "ecosystem", "popularity", "use cases"],
+    "requires_recency": true,
+    "notes": "Technology comparison with evolving landscape"
+  },
+  {
+    "id": "multihop_1",
+    "type": "multi_hop",
+    "question": "Which country invented the Transformer neural network architecture and what major AI products are built on it?",
+    "expected_aspects": ["Google / US origin", "BERT", "GPT series", "practical applications"],
+    "requires_recency": false,
+    "notes": "Multi-hop: needs to connect invention → products → impact"
+  },
+  {
+    "id": "multihop_2",
+    "type": "multi_hop",
+    "question": "How does the EU AI Act affect companies that use large language models for customer service?",
+    "expected_aspects": ["EU AI Act provisions", "risk classification", "compliance requirements", "timeline"],
+    "requires_recency": true,
+    "notes": "Multi-hop regulatory + technology reasoning"
+  },
+  {
+    "id": "insufficient_1",
+    "type": "insufficient_evidence",
+    "question": "What is the exact revenue of a fictional startup called NexaCloud AI founded last week?",
+    "expected_aspects": ["uncertainty acknowledgment", "no made-up numbers", "explanation of limitation"],
+    "requires_recency": false,
+    "notes": "Agent must admit it cannot find evidence and not hallucinate"
+  },
+  {
+    "id": "insufficient_2",
+    "type": "insufficient_evidence",
+    "question": "What will the global GDP be in 2045?",
+    "expected_aspects": ["uncertainty statement", "qualified projections", "source caveats"],
+    "requires_recency": false,
+    "notes": "Future prediction – agent should hedge and cite projection sources"
+  },
+  {
+    "id": "conflict_1",
+    "type": "conflicting_sources",
+    "question": "Is coffee good or bad for health? What does current research say?",
+    "expected_aspects": ["conflicting evidence mentioned", "benefits cited", "risks cited", "both sides sourced"],
+    "requires_recency": false,
+    "notes": "Classic conflicting-evidence domain – agent must surface both sides"
+  },
+  {
+    "id": "conflict_2",
+    "type": "conflicting_sources",
+    "question": "Does remote work increase or decrease employee productivity? What does the evidence say?",
+    "expected_aspects": ["multiple studies cited", "disagreement flagged", "context factors mentioned"],
+    "requires_recency": false,
+    "notes": "Research domain with genuinely conflicting studies"
+  },
+  {
+    "id": "deep_research_1",
+    "type": "deep_research",
+    "question": "Explain the current state of quantum computing and which companies are leading the race to quantum advantage.",
+    "expected_aspects": ["qubit counts", "IBM", "Google", "specific milestones", "timeline", "challenges"],
+    "requires_recency": true,
+    "notes": "Broad technical overview requiring multiple source aggregation"
+  },
+  {
+    "id": "deep_research_2",
+    "type": "deep_research",
+    "question": "What are the main causes and consequences of the 2023-2024 global inflation surge, and how did central banks respond?",
+    "expected_aspects": ["supply chain", "energy prices", "interest rate hikes", "Fed/ECB actions", "economic impact"],
+    "requires_recency": true,
+    "notes": "Complex multi-factor economic analysis"
+  }
+]
